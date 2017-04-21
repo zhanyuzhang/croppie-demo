@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/croppie.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <title></title>
+</head>
+<body>
+<div class="wrapper">
+  <header></header>
+  <main>
+    <form action="" id="post-form">
+      <dl>
+        <dd class="title"><div class="title">生 / 命 / 不 / 息 · 运 / 动 / 不 / 止</div></dd>
+        <dd> <label for="">姓　名:</label><input type="text" name="name"></dd>
+        <dd><label for="">工　号:</label><input type="text" name="unum"></dd>
+        <dd><label for="">手机号:</label><input type="number" name="mobile"></dd>
+        <dd><label for="">上传休式照片</label><input type="file" class="hidden"><img src="images/btn-add.png" class="add" alt=""></dd>
+        <dd>
+          <label for="" class="slogan-label">瑜伽寄语：(50字以内)</label>
+          <textarea name="resume" rows="4"></textarea>
+        </dd>
+        <dd>
+          <div class="btn-submit">
+            提交生成代言海报
+            <div class="border"></div>
+          </div>
+        </dd>
+        <dl></dl>
+      </dl>
+    </form>
+  </main>
+  <div class="croppie-modal hidden">
+    <div class="croppie-container"><div class="btn-cut">保存</div></div>
+    <div class="toolbar">
+      <div class="btn-save">保存</div>
+      <div class="btn-cancel">取消</div>
+    </div>
+  </div>
+  <div class="footer">
+
+  </div>
+</div>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/croppie.min.js"></script>
+<script src="./js/rem-helper.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

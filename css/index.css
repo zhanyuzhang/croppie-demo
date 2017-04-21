@@ -1,0 +1,124 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-size: contain; }
+
+input, textarea {
+  -webkit-appearance: none;
+  border: none; }
+
+body {
+  background: #dcdcdc; }
+
+.wrapper {
+  font-size: .3rem; }
+  .wrapper header {
+    height: 6.55rem;
+    background: url(../images/bg-header.png) no-repeat top right;
+    background-size: contain; }
+  .wrapper main {
+    width: 4.78rem;
+    position: relative;
+    margin: 0 auto;
+    border-radius: .1rem; }
+    .wrapper main dl dd {
+      padding: .05rem 0;
+      color: #786f69;
+      font-size: .24rem;
+      font-family: "微软雅黑"; }
+      .wrapper main dl dd .title {
+        border: .01rem solid #786f69;
+        padding: .05rem;
+        text-align: center;
+        border-radius: .1rem;
+        font-weight: bold; }
+      .wrapper main dl dd label {
+        width: .95rem;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: .1rem; }
+      .wrapper main dl dd .slogan-label {
+        display: block;
+        width: auto;
+        padding: .1rem; }
+      .wrapper main dl dd input {
+        display: inline-block;
+        width: 3.26rem;
+        height: .5rem;
+        vertical-align: middle;
+        border-radius: 0;
+        border-bottom: .01rem solid #786f69;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background: #dcdcdc;
+        color: #786f69; }
+        .wrapper main dl dd input:focus {
+          outline: none; }
+      .wrapper main dl dd img.add {
+        height: .5rem;
+        vertical-align: middle; }
+      .wrapper main dl dd textarea {
+        width: 4.36rem;
+        border: .01rem solid #786f69;
+        border-radius: .1rem;
+        resize: none;
+        outline: none;
+        padding: .1rem;
+        color: #786f69;
+        background: #dcdcdc;
+        font-size: .24rem; }
+      .wrapper main dl dd .btn-submit {
+        width: 2.6rem;
+        height: .6rem;
+        padding: 0.05rem 0;
+        background-size: contain;
+        cursor: pointer;
+        margin: 0 auto;
+        border: 1px solid #4d4744;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 0.1rem;
+        position: relative; }
+        .wrapper main dl dd .btn-submit .border {
+          width: 2.4rem;
+          height: 0.1rem;
+          background: #4d4744;
+          position: absolute;
+          bottom: 0;
+          left: 0.1rem; }
+  .wrapper .croppie-modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7); }
+    .wrapper .croppie-modal .toolbar {
+      position: absolute;
+      left: 0;
+      right: 0;
+      padding: .5rem 0;
+      color: #fff;
+      font-size: .24rem;
+      text-align: center; }
+      .wrapper .croppie-modal .toolbar .btn-save, .wrapper .croppie-modal .toolbar .btn-cancel {
+        padding: .1rem .5rem;
+        display: inline-block;
+        border-radius: .1rem;
+        margin: 0 .3rem; }
+      .wrapper .croppie-modal .toolbar .btn-save {
+        background: #23d160; }
+      .wrapper .croppie-modal .toolbar .btn-cancel {
+        background: #ff3860; }
+  .wrapper .footer {
+    height: .5rem;
+    background: url(../images/bg-logo.png) right center no-repeat;
+    background-size: contain; }
+
+.hidden {
+  display: none !important; }
+
+/*# sourceMappingURL=index.css.map */

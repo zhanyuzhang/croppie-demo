@@ -1,0 +1,83 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #dcdcdc;
+}
+
+.wrapper {
+  width: 7.38rem;
+  margin: 0 auto;
+  padding-top: 0.2rem;
+  text-align: center;
+
+  .show-area {
+    height: 5.29rem;
+    background: url(../images/bg-show.png) no-repeat center;
+    background-size: contain;
+    line-height: 5.29rem;
+    padding: 0.15rem 0;
+    position: relative;
+
+    img.post {
+      width: 7rem;
+      height: 5rem;
+    }
+
+    .yoga-logo  {
+      position: absolute;
+      width: 1.02rem;
+      height: 1.36rem;
+      background: url(../images/bg-yoga.png) center no-repeat;
+      background-size: contain;
+      top: 0.3rem;
+      left: 0.3rem;
+    }
+  }
+
+  .slogan-area {
+    height: 1rem;
+    background: url(../images/bg-slogan.png) center no-repeat;
+    background-size: contain;
+    margin: .2rem 0;
+  }
+
+  .msg-box {
+    padding: .2rem;
+    .title {
+      width: 1.86rem;
+      height: 0.97rem;
+      background: url(../images/bg-wording.png) center no-repeat;
+      background-size: contain;
+    }
+
+    .msg {
+      font-size: .24rem;
+      width: 3.35rem;
+      font-weight: bold;
+      border: .02rem #8d888c solid;
+      border-radius: 0.1rem;
+      margin: .1rem 0;
+      text-align: left;
+      padding: .5rem .2rem;
+    }
+  }
+
+  .footer {
+    position: absolute;
+    width: 7.5rem;
+    height: 2.56rem;
+    bottom: .5rem;
+    background-size: contain;
+    text-align: right;
+    padding-right: .6rem;
+
+    .qr-code {
+      width: 1.73rem;
+      height: 2.56rem;
+    }
+  }
+}
