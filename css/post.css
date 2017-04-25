@@ -35,7 +35,7 @@ body {
     background-size: contain;
     margin: .2rem 0; }
   .wrapper .msg-box {
-    padding: .2rem; }
+    padding: 1rem .2rem .2rem .2rem; }
     .wrapper .msg-box .title {
       width: 1.86rem;
       height: 0.97rem;

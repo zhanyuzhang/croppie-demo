@@ -7,12 +7,14 @@
     },
     getPostData: function () {
       var self = this;
-      var yogakey = /yogakey=(\w+)/.exec(location.search);
+      var yogakey = /yogakey=(\w+)/.exec(location.search)[1];
       $.ajax({
-        url: 'http://xz-yixin.gameyw.netease.com/xzyoga_data',
+        url: '//xz-yixin.gameyw.netease.com/xzyoga_data',
         data: {
           yogakey: yogakey
         },
+        dataType: 'json',
+        // method: 'post',
         success: function (res) {
           if(res.status) {
             self.renderPage(res.data.img, res.data.resume);
